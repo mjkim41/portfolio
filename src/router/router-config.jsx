@@ -1,6 +1,6 @@
 import {createBrowserRouter} from "react-router-dom";
 import RootLayout from "../layout/RootLayout.jsx";
-import IndexPage from "../pages/IndexPage.jsx";
+import MainPage from "../pages/MainPage.jsx";
 
 export const router = createBrowserRouter([
     {
@@ -10,7 +10,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                element: <IndexPage />,
+                element: <MainPage />,
             }
         ]
     }

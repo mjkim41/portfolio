@@ -2,12 +2,36 @@
   position: relative;
 }
 
+.contactSvg {
+  width: 150px;
+  height: 150px;
+
+  @media (max-width: 1536px) {
+    width: 130px;
+    height: 130px;
+  }
+
+  @media (max-width: 1024px) {
+    width: 120px;
+    height: 120px;
+  }
+
+  @media (max-width: 768px) {
+    width: 100px;
+    height: 100px;
+  }
+}
+
 .circleText {
   letter-spacing: 3px;
   font-size: 20px;
+
+  @media (max-width: 1024px) {
+    font-size: 18px;
+  }
 }
 
-.arrow {
+.icon {
   position: absolute;
   // 정 가운데
   transform: translate(-50%, -50%);

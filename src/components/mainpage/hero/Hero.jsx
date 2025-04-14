@@ -1,13 +1,30 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import styles from './hero.module.scss';
-import EmailIcon from "../../icons/EmailIcon.jsx";
 import ScrollIcon from "../../icons/ScrollIcon.jsx";
 import githubIcon from '../../../assets/github.png';
 import BlogIcon from "../../icons/BlogIcon.jsx";
 import Speech from "./Speech.jsx";
 import ContactButton from "../../icons/ContactButton.jsx";
 import LanguageSwitch from "../../icons/LanguageSwitch.jsx";
+import profilePic from '../../../assets/heroImage.png';
+import heroImage from '../../../assets/heroImage.svg';
+import {motion} from 'motion/react';
+
+const ctaButtonsVariants = {
+    initial: {
+        x: -100,
+        opacity: 0,
+    },
+    animate: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            duration: 1,
+            staggerChildren: 0.2
+        }
+    }
+}
 
 const Hero = () => {
     // i18n 라이브러리 번역 툴
@@ -23,51 +40,69 @@ const Hero = () => {
             {/* 왼쪽 */}
             <div className={`${styles.heroSection} ${styles.left}`}>
                 {/* 타이틀 */}
-                <h1 className={styles.title}>
+                <motion.h1
+                    className={styles.title}
+                    initial={{y: -100, opacity: 0}}
+                    animate={{y: 0, opacity: 1}}
+                    transition={{duration: 1}}
+                >
                     {/* 안녕하세요 */}
                     {t('pages.main.hero.greeting')}
                     <br/>
                     {/* 김미정입니다 */}
                     <span>{t('pages.main.hero.name')}</span>
-                </h1>
+                </motion.h1>
                 {/* call to actions */}
-                <div className={styles.ctaContainer}>
-                    {/* 저에 대해 더 궁금하시다면, 확인하세요*/}
-                    <h2>{t('pages.main.hero.profileTitle')}</h2>
-                    <p>{t('pages.main.hero.profileDesc')}</p>
-                    <div className={styles.ctaButtons}>
+                <motion.div
+                    className={styles.ctaContainer}
+                    variants={ctaButtonsVariants}
+                    initial='initial'
+                    animate='animate'
+                >
+                    {/* 저에 대해 더 궁금하신가요? */}
+                    <motion.h2 variants={ctaButtonsVariants}>{t('pages.main.hero.profileTitle')}</motion.h2>
+                    <motion.p variants={ctaButtonsVariants}>{t('pages.main.hero.profileDesc')}</motion.p>
+                    <motion.div variants={ctaButtonsVariants} className={styles.ctaButtons}>
                         {/* 이략서 현재는 한국어 버전만 가지고 있음 */}
                         {i18n.language === 'kor' && (
-                            <a
+                            <motion.a
                                 href="https://drive.google.com/file/d/1lQbntW4BR0fdHoSk7m8sWjZkeQc0qAud/view?usp=sharing"
                                 className={styles.resumeButton}
-                                target="_blank"
-                                rel="noopener noreferrer"
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                variants={ctaButtonsVariants}
                             >
                                 {t('pages.main.hero.resumeBtn')}
-                            </a>
+                            </motion.a>
                         )}
-                        <a
+                        <motion.a
                             className={styles.iconLink}
                             href='https://github.com/mjkim41'
                             target='_blank'
                             rel='noopener noreferrer'
+                            variants={ctaButtonsVariants}
                         >
                             <img src={githubIcon} alt='GitHub' className={styles.icon}/>
-                        </a>
-                        <a
+                        </motion.a>
+                        <motion.a
+                            variants={ctaButtonsVariants}
                             className={styles.iconLink}
-                            href="https://velog.io/@kimmy25312"
-                            target="_blank"
-                            rel="noopener noreferrer"
+                            href='https://velog.io/@kimmy25312'
+                            target='_blank'
+                            rel='noopener noreferrer'
                         >
                             <BlogIcon className={styles.icon}/>
-                        </a>
-                    </div>
-                </div>
-                <a href='#services' className={styles.scroll}>
+                        </motion.a>
+                    </motion.div>
+                </motion.div>
+                <motion.a
+                    href='#services'
+                    className={styles.scroll}
+                    animate={{y:[0,5], opacity: [0,1,0]}}
+                    transition={{duration: 4, ease: 'easeInOut', repeat: Infinity}}
+                >
                     <ScrollIcon/>
-                </a>
+                </motion.a>
             </div>
 
             {/* 오른쪽     */}
@@ -79,9 +114,29 @@ const Hero = () => {
                 {/* 빈 공간 */}
                 <div></div>
                 {/*  컨택트 버튼 */}
-                <a href='/#contact' className={styles.contactLink}>
+                <motion.a
+                    href='#contact'
+                    className={styles.contactLink}
+                    animate={{
+                        x: [200, 0],
+                        opacity: [0,1]
+                    }}
+                    transition={{
+                        duration: 2,
+                    }}
+                >
                     <ContactButton />
-                </a>
+                </motion.a>
+            </div>
+            {/* 프로필 사진 */}
+            <div className={styles.background}>
+                <div className={styles.heroImage}>
+                    {/* 3D 캐릭터 */}
+                    <img
+                        src={heroImage}
+                        alt='profilePic'
+                    />
+                </div>
             </div>
         </div>
     );

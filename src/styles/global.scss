@@ -18,30 +18,30 @@ a {
 
 // 공통 컨테이너 스타일
 .container {
-  max-width: 100%;
+  max-width: 90%;
   padding-left: 16px;
   padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 
-  @media (min-width: 640px) {
-    max-width: 640px;
+  @media (max-width: 1536px) {
+    max-width: 1500px;
   }
 
-  @media (min-width: 768px) {
-    max-width: 768px;
-  }
-
-  @media (min-width: 1024px) {
-    max-width: 1024px;
-  }
-
-  @media (min-width: 1280px) {
+  @media (max-width: 1280px) {
     max-width: 1280px;
   }
 
-  @media (min-width: 1536px) {
-    max-width: 1536px;
+  @media (max-width: 1024px) {
+    max-width: 924px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 668px;
+  }
+
+  @media (max-width: 640px) {
+    max-width: 100%;
   }
 }
 

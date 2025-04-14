@@ -40,7 +40,7 @@ i18n
   .init({  // 초기 설정
     resources,
     fallbackLng: 'eng', // 지원하지 않는 언어로 접근했을 때 기본으로 보여줄 언어
-    debug: true, // 개발하는 동안은 true로 설정. 이후 false로 바꾸기 (콘솔창에 번역 관련 정보를 부여주기)
+    debug: false, // 개발하는 동안은 true로 설정. 이후 false로 바꾸기 (콘솔창에 번역 관련 정보를 부여주기)
     detection: {
       order: ['navigator'],
       caches: [],

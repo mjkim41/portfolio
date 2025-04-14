@@ -15,8 +15,9 @@ export const resources = {
             greeting: '안녕하세요,',
             name: '김미정입니다',
             profileTitle: '저에 대해 더 궁금하신가요?',
-            profileDesc: '이력서와 깃허브, 블로그를 확인하세요',
-            resumeBtn: '이력서 보기',
+            profileDesc: '깃허브와 블로그를 확인해보세요',
+            resumeBtn: '이력서',
+            portfolioBtn: '포트폴리오',
             speech: {
               line1: '협업을 위해 문서화를 중시하는 신입 개발자입니다.'
             }
@@ -49,7 +50,7 @@ export const resources = {
             greeting: 'Hey There,',
             name: `I'm Mijung!`,
             profileTitle: 'Want to know more?',
-            profileDesc: 'Check out my resume, GitHub, and blog',
+            profileDesc: 'Check out my GitHub and blog',
             resumeBtn: 'View Resume',
             speech: {
               line1: 'I believe in well-documented collaboration'
@@ -83,7 +84,7 @@ export const resources = {
             greeting: 'Hola,',
             name: 'Me llamo Mijung',
             profileTitle: '¿Quieres saber más?',
-            profileDesc: 'Explora mi CV, GitHub y Blog',
+            profileDesc: 'Explora mi GitHub y blog',
             resumeBtn: 'Ver CV',
             speech: {
               line1: 'Priorizando la documentación en el trabajo en equipo'

@@ -1,10 +1,21 @@
 import React from 'react';
+import { motion } from 'motion/react';
+import styles from './scrollIcon.module.scss';
 
-const ScrollIcon = ({ width = 50, height = 50, fill = "none" }) => {
+const ScrollIcon = ({ fill = "none" }) => {
+    const wheelAnimation = {
+        animate: { y: [0, 3] },
+        transition: {
+            duration: 1.5,
+            repeat: Infinity,
+            repeatType: "reverse",
+            ease: "easeInOut"
+        }
+    };
+
     return (
         <svg
-            width={width}
-            height={height}
+            className={styles.scrollIcon}
             viewBox='0 0 24 24'
             fill={fill}
             xmlns="http://www.w3.org/2000/svg"
@@ -14,11 +25,18 @@ const ScrollIcon = ({ width = 50, height = 50, fill = "none" }) => {
                 stroke="white"
                 strokeWidth="1"
             />
+            {/* 스크롤 화살표 - 고정 */}
             <path
-                d="M12 5V8"
+                d="M12 4V9"
                 stroke="white"
                 strokeWidth="1"
                 strokeLinecap="round"
+            />
+            {/* 휠 용 원 - 화살표 안에서 움직임 */}
+            <motion.path
+                {...wheelAnimation}
+                d="M12 5C11.4477 5 11 5.44772 11 6V6.5C11 7.05228 11.4477 7.5 12 7.5C12.5523 7.5 13 7.05228 13 6.5V6C13 5.44772 12.5523 5 12 5Z"
+                fill="white"
             />
         </svg>
     );

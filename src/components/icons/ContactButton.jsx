@@ -1,10 +1,15 @@
 import React from 'react';
 import styles from './contactButton.module.scss';
+import {motion} from 'motion/react';
 
 const ContactButton = () => {
     return (
-        <div className={styles.contactButton}>
-            <svg viewBox='0 0 200 200' width='150' height='150'>
+        <motion.div
+            animate={{rotate: [0, 360]}}
+            transition={{duration: 10, repeat: Infinity, ease: 'linear'}}
+            className={styles.contactButton}
+        >
+            <svg viewBox='0 0 200 200' className={styles.contactSvg}>
                 {/* 동그라미 */}
                 <circle cx='100' cy='100' r='90' fill='pink'/>
                 <path
@@ -22,7 +27,7 @@ const ContactButton = () => {
                 </text>
             </svg>
             {/* 이메일 아이콘 */}
-            <div className={styles.arrow}>
+            <div className={styles.icon}>
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
@@ -36,7 +41,7 @@ const ContactButton = () => {
                     <path d="M4 9l8 4 8-4"/>
                 </svg>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

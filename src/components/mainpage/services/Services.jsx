@@ -4,7 +4,8 @@ import styles from './services.module.scss';
 const Services = () => {
     return (
         <div className={styles.services}>
-            Services
+            <div className={`${styles.servicesSection} ${styles.left}`}></div>
+            <div className={`${styles.servicesSection} ${styles.right}`}></div>
         </div>
     );
 };

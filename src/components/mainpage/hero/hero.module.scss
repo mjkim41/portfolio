@@ -1,3 +1,96 @@
 .hero {
+    // 부모 컨테이너가 100vh
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+
+    .languageSwitchContainer {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        z-index: 10;
+    }
+
+    .heroSection {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .title {
+        margin-top: 50px;
+        font-size: 100px;
+        color: pink;
+
+        span {
+            color: #ffffff;
+        }
+    }
+
+    .ctaContainer {
+        width: 40%;
+    }
+
+    .ctaContainer p {
+        font-size: 14px;
+        color: #dddddd;
+        margin: 16px 0;
+    }
+
+    .ctaButtons {
+        display: flex;
+        gap: 8px;
+        margin: 1rem 0;
+        flex-wrap: wrap;  // 공간이 부족하면 줄바꿈
+
+        @media (max-width: 375px) {
+            gap: 0.5rem;  // 모바일에서 간격 줄임
+        }
+    }
+
+    .resumeButton {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        color: black;
+        border-radius: 20px;
+        padding: 0 20px;
+        height: 36px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .iconLink {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 36px;
+        height: 36px;
+        background-color: white;
+        border-radius: 50%;
+
+        img, svg {  // 내부 아이콘 크기 조절
+            width: 28px;
+            height: 28px;
+        }
+    }
+
+    .scroll {
+        margin-bottom: 50px;
+        width: max-content;
+    }
+
+    .right {
+        align-items: end;
+
+
+        .contactLink {
+            margin-bottom: 50px;
+        }
+    }
 
 }

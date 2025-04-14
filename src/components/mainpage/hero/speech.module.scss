@@ -3,6 +3,7 @@
     display: flex;
     gap: 8px;
     justify-content: space-between;
+    align-items: flex-end;
 
     .bubble {
         width: 100%;
@@ -12,11 +13,16 @@
         padding: 24px;
         font-size: 18px;
         border-radius: 20px 20px 0 20px;
+        display: flex;
+        align-items: center;
     }
 
     img {
         width: 50px;
         height: 50px;
+        border-radius: 100%;
+        object-fit: cover;
+        background-color: #ffffff;
     }
 
 }

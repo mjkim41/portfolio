@@ -16,7 +16,10 @@ export const resources = {
             name: '김미정입니다',
             profileTitle: '저에 대해 더 궁금하신가요?',
             profileDesc: '이력서와 깃허브, 블로그를 확인하세요',
-            resumeBtn: '이력서 보기'
+            resumeBtn: '이력서 보기',
+            speech: {
+              line1: '협업을 위해 문서화를 중시하는 신입 개발자입니다.'
+            }
           },
           services: {
             // 서비스 섹션 관련 번역
@@ -47,7 +50,10 @@ export const resources = {
             name: `I'm Mijung!`,
             profileTitle: 'Want to know more?',
             profileDesc: 'Check out my resume, GitHub, and blog',
-            resumeBtn: 'View Resume'
+            resumeBtn: 'View Resume',
+            speech: {
+              line1: 'I believe in well-documented collaboration'
+            }
           },
           services: {
             // Services section translations
@@ -78,7 +84,10 @@ export const resources = {
             name: 'Me llamo Mijung',
             profileTitle: '¿Quieres saber más?',
             profileDesc: 'Explora mi CV, GitHub y Blog',
-            resumeBtn: 'Ver CV'
+            resumeBtn: 'Ver CV',
+            speech: {
+              line1: 'Priorizando la documentación en el trabajo en equipo'
+            }
           },
           services: {
             // Traducciones de la sección de servicios

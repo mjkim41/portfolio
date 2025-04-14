@@ -11,7 +11,7 @@ import LanguageSwitch from "../../icons/LanguageSwitch.jsx";
 
 const Hero = () => {
     // i18n 라이브러리 번역 툴
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
 
     return (
         <div className={styles.hero}>
@@ -36,14 +36,17 @@ const Hero = () => {
                     <h2>{t('pages.main.hero.profileTitle')}</h2>
                     <p>{t('pages.main.hero.profileDesc')}</p>
                     <div className={styles.ctaButtons}>
-                        <a
-                            href="https://drive.google.com/file/d/1lQbntW4BR0fdHoSk7m8sWjZkeQc0qAud/view?usp=sharing"
-                            className={styles.resumeButton}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            {t('pages.main.hero.resumeBtn')}
-                        </a>
+                        {/* 이략서 현재는 한국어 버전만 가지고 있음 */}
+                        {i18n.language === 'kor' && (
+                            <a
+                                href="https://drive.google.com/file/d/1lQbntW4BR0fdHoSk7m8sWjZkeQc0qAud/view?usp=sharing"
+                                className={styles.resumeButton}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                {t('pages.main.hero.resumeBtn')}
+                            </a>
+                        )}
                         <a
                             className={styles.iconLink}
                             href='https://github.com/mjkim41'

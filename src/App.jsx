@@ -1,13 +1,7 @@
-import {RouterProvider} from "react-router-dom";
-import {router} from "./router/router-config.jsx";
+import MainPage from "./pages/MainPage.jsx";
 
 const App = () => {
-
-    return (
-        <>
-            <RouterProvider router={router}/>
-        </>
-    )
+    return <MainPage />;
 }
 
 export default App

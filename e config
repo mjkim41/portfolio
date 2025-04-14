@@ -1,0 +1,43 @@
+[33m2d5af85[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/main[m[33m)[m HEAD@{0}: commit: fix: update vite base config
+[33m274d097[m HEAD@{1}: commit: [setup/build] modify createBrowerRouter to createHashRouter
+[33m6a3200a[m HEAD@{2}: rebase (finish): returning to refs/heads/feature/main
+[33m6a3200a[m HEAD@{3}: rebase (squash): [setup/build] github pages deploy setup
+[33mcd54d2f[m HEAD@{4}: rebase (start): checkout head~3
+[33mfd7bb98[m HEAD@{5}: commit: [setup/build] github pages deploy setup
+[33mcd54d2f[m HEAD@{6}: commit: [setup/build] github pages deploy
+[33md6063ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{7}: checkout: moving from main to feature/main
+[33md6063ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{8}: checkout: moving from feature/main to main
+[33md6063ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{9}: reset: moving to d6063ee
+[33m5b62e41[m HEAD@{10}: commit: [setup/build] Restore code state to d6063ee
+[33m53ea921[m HEAD@{11}: checkout: moving from d6063ee889da5f0ca70cc2f9b49c744721fef12c to feature/main
+[33md6063ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{12}: checkout: moving from feature/main to d6063ee
+[33m53ea921[m HEAD@{13}: revert: Revert "[feature/main] typing effect in speech section"
+[33m9b25c8e[m HEAD@{14}: commit: [setup/build] revert
+[33m8cfac52[m HEAD@{15}: reset: moving to HEAD
+[33m8cfac52[m HEAD@{16}: commit: [setup/build] change .jsx to .js for deployment
+[33m26c1312[m HEAD@{17}: commit: [setup/build] add deploy configuration - delete unnecessary codes
+[33m8c132d1[m HEAD@{18}: commit: [setup/build] add deploy configuration with comments
+[33m79f6244[m HEAD@{19}: commit: [setup/build] add deploy configuration
+[33md6063ee[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/feature/main[m[33m, [m[1;32mmain[m[33m)[m HEAD@{20}: commit: [feature/main] typing effect in speech section
+[33m3243e53[m[33m ([m[1;32mfeature/hero-section[m[33m)[m HEAD@{21}: checkout: moving from feature/hero-section to feature/main
+[33m3243e53[m[33m ([m[1;32mfeature/hero-section[m[33m)[m HEAD@{22}: commit: [feature/main] support multi language
+[33m53157af[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mstyles/main[m[33m)[m HEAD@{23}: checkout: moving from styles/main to feature/hero-section
+[33m53157af[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mstyles/main[m[33m)[m HEAD@{24}: rebase (finish): returning to refs/heads/styles/main
+[33m53157af[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mstyles/main[m[33m)[m HEAD@{25}: rebase (squash): [styles/main] complete the left side of hero section
+[33m36c36d6[m HEAD@{26}: rebase (start): checkout head~3
+[33mff2d55b[m HEAD@{27}: commit: [styles/main] complete the left side of hero section
+[33m36c36d6[m HEAD@{28}: commit: [styles/main] 임시
+[33m0836d7d[m[33m ([m[1;31morigin/styles/main[m[33m)[m HEAD@{29}: commit: [styles/main] Implement scroll snap functionality
+[33mbf3b4f6[m[33m ([m[1;31morigin/feature/setup-environment[m[33m, [m[1;32mfeature/setup-environment[m[33m)[m HEAD@{30}: checkout: moving from feature/setup-environment to styles/main
+[33mbf3b4f6[m[33m ([m[1;31morigin/feature/setup-environment[m[33m, [m[1;32mfeature/setup-environment[m[33m)[m HEAD@{31}: commit: [feature/utility] Setup environment-based logger system
+[33m5fe25d0[m[33m ([m[1;31morigin/feature/global-styles[m[33m, [m[1;32mfeature/global-styles[m[33m)[m HEAD@{32}: checkout: moving from feature/global-styles to feature/setup-environment
+[33m5fe25d0[m[33m ([m[1;31morigin/feature/global-styles[m[33m, [m[1;32mfeature/global-styles[m[33m)[m HEAD@{33}: commit: [feature/global-styles] Add global styles and container layout
+[33m31259ff[m HEAD@{34}: checkout: moving from main to feature/global-styles
+[33m31259ff[m HEAD@{35}: pull origin main: Fast-forward
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{36}: checkout: moving from setup/project-structure to main
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{37}: reset: moving to 7a6ef09
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{38}: checkout: moving from main to setup/project-structure
+[33m11f4605[m HEAD@{39}: checkout: moving from setup/project-structure to main
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{40}: reset: moving to 7a6ef09
+[33m5ab1963[m HEAD@{41}: commit: [setup/project-structure] update ReadMe
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{42}: commit (initial): [setup/project-structure] initialize project structure

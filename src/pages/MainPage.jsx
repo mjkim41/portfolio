@@ -7,6 +7,7 @@ import styles from './mainPage.module.scss';
 
 const MainPage = () => {
     return (
+        // global.scss 적용
         <div className='container'>
             <Hero/>
             <Services/>

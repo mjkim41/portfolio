@@ -8,11 +8,19 @@ import styles from './mainPage.module.scss';
 const MainPage = () => {
     return (
         // global.scss 적용
-        <div className='container'>
-            <Hero/>
-            <Services/>
-            <Portfolio/>
-            <Contact/>
+        <div className='container snapContainer'>
+            <section id='#home'>
+                <Hero/>
+            </section>
+            <section id='#services'>
+                <Services/>
+            </section>
+            <section id='#portfolio'>
+                <Portfolio/>
+            </section>
+            <section id='#contact'>
+                <Contact/>
+            </section>
         </div>
     );
 };

@@ -8,9 +8,7 @@ const Speech = () => {
             <div className={styles.bubble}>
                 TEXT
             </div>
-            <div className={styles.imageContainer}>
-                <img src={profilePic} alt='profilePic' />
-            </div>
+            <img src={profilePic} alt='profilePic' />
         </div>
     );
 };

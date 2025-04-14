@@ -1,4 +1,5 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import styles from './hero.module.scss';
 import EmailIcon from "../../icons/EmailIcon.jsx";
 import ScrollIcon from "../../icons/ScrollIcon.jsx";
@@ -9,6 +10,9 @@ import ContactButton from "../../icons/ContactButton.jsx";
 import LanguageSwitch from "../../icons/LanguageSwitch.jsx";
 
 const Hero = () => {
+    // i18n 라이브러리 번역 툴
+    const { t } = useTranslation();
+
     return (
         <div className={styles.hero}>
             {/* 언어 아이콘 */}
@@ -20,14 +24,17 @@ const Hero = () => {
             <div className={`${styles.heroSection} ${styles.left}`}>
                 {/* 타이틀 */}
                 <h1 className={styles.title}>
-                    안녕하세요,
+                    {/* 안녕하세요 */}
+                    {t('pages.main.hero.greeting')}
                     <br/>
-                    <span>김미정입니다</span>
+                    {/* 김미정입니다 */}
+                    <span>{t('pages.main.hero.name')}</span>
                 </h1>
                 {/* call to actions */}
                 <div className={styles.ctaContainer}>
-                    <h2>저에 대해 더 궁금하신가요?</h2>
-                    <p>이력서와 깃허브, 블로그를 확인하세요</p>
+                    {/* 저에 대해 더 궁금하시다면, 확인하세요*/}
+                    <h2>{t('pages.main.hero.profileTitle')}</h2>
+                    <p>{t('pages.main.hero.profileDesc')}</p>
                     <div className={styles.ctaButtons}>
                         <a
                             href="https://drive.google.com/file/d/1lQbntW4BR0fdHoSk7m8sWjZkeQc0qAud/view?usp=sharing"
@@ -35,7 +42,7 @@ const Hero = () => {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            이력서 보기
+                            {t('pages.main.hero.resumeBtn')}
                         </a>
                         <a
                             className={styles.iconLink}

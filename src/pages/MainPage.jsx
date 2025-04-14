@@ -9,16 +9,16 @@ const MainPage = () => {
     return (
         // global.scss 적용
         <div className='container snapContainer'>
-            <section id='home'>
+            <section className={styles.section} id='home'>
                 <Hero/>
             </section>
-            <section id='services'>
+            <section className={styles.section} id='services'>
                 <Services/>
             </section>
-            <section id='portfolio'>
+            <section className={styles.section} id='portfolio'>
                 <Portfolio/>
             </section>
-            <section id='contact'>
+            <section className={styles.section} id='contact'>
                 <Contact/>
             </section>
         </div>

@@ -66,6 +66,18 @@ export const resources = {
             }
           }
         }
+      },
+      validation: {
+        name: {
+          required: '이름을 입력해주세요'
+        },
+        email: {
+          required: '이메일을 입력해주세요',
+          invalid: '올바른 이메일 형식이 아닙니다'
+        },
+        message: {
+          required: '메시지를 입력해주세요'
+        }
       }
     }
   },
@@ -134,6 +146,18 @@ export const resources = {
             }
           }
         }
+      },
+      validation: {
+        name: {
+          required: 'Please enter your name'
+        },
+        email: {
+          required: 'Please enter your email',
+          invalid: 'Please enter a valid email'
+        },
+        message: {
+          required: 'Please enter your message'
+        }
       }
     }
   },
@@ -184,15 +208,15 @@ export const resources = {
             form: {
               name: {
                 label: 'Nombre',
-                placeholder: 'Escribe tu nombre'
+                placeholder: 'Tu nombre'
               },
               email: {
-                label: 'Correo',
-                placeholder: 'Escribe tu correo'
+                label: 'Correo electrónico',
+                placeholder: 'Tu correo electrónico'
               },
               message: {
                 label: 'Mensaje',
-                placeholder: 'Escribe tu mensaje'
+                placeholder: 'Escribe tu mensaje aquí'
               },
               submit: 'Enviar'
             },
@@ -201,6 +225,18 @@ export const resources = {
               error: 'Error al enviar'
             }
           }
+        }
+      },
+      validation: {
+        name: {
+          required: 'Escribe tu nombre'
+        },
+        email: {
+          required: 'Escribe tu correo electrónico',
+          invalid: 'El formato del correo no es válido'
+        },
+        message: {
+          required: 'Escribe tu mensaje'
         }
       }
     }

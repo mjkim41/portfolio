@@ -23,14 +23,14 @@ const Contact = () => {
     const schema = yup.object().shape({
         name: yup.string()
             .trim()
-            .required('이름을 입력해주세요'),
+            .required(t('validation.name.required')),
         email: yup.string()
             .trim()
-            .email('올바른 이메일 형식이 아닙니다')
-            .required('이메일을 입력해주세요'),
+            .email(t('validation.email.invalid'))
+            .required(t('validation.email.required')),
         message: yup.string()
             .trim()
-            .required('메시지를 입력해주세요')
+            .required(t('validation.message.required'))
     });
 
     // debounce된 validateField 함수 생성

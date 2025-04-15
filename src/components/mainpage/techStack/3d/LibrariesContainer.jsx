@@ -29,7 +29,7 @@ const LibrariesContainer = () => {
                             enableZoom={true}
                             reverseZoom={false}
                         />
-                        <PerspectiveCamera position={[-5, 0, 1.8]} zoom={0.8} makeDefault/>
+                        <PerspectiveCamera position={[-11, 0, 1.8]} zoom={0.8} makeDefault/>
                     </Suspense>
                 </Canvas>
             ) : (

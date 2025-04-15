@@ -1,3 +1,12 @@
-.porfolio {
+.portfolio {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    scroll-snap-align: none; // 스크롤 스냅 비활성화
+}
 
+.portfolioList {
+    display: flex;
+    height: 100vh;
+    width: max-content;
+    scroll-behavior: smooth;
 }

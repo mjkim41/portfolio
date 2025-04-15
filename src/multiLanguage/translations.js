@@ -22,8 +22,8 @@ export const resources = {
               line1: '협업을 위해 문서화를 중시하는 신입 개발자입니다.'
             }
           },
-          services: {
-            // 서비스 섹션 관련 번역
+          techStack: {
+
           },
           portfolio: {
             // 포트폴리오 섹션 관련 번역
@@ -56,8 +56,8 @@ export const resources = {
               line1: 'I believe in well-documented collaboration'
             }
           },
-          services: {
-            // Services section translations
+          techStack: {
+
           },
           portfolio: {
             // Portfolio section translations
@@ -90,8 +90,8 @@ export const resources = {
               line1: 'Priorizando la documentación en el trabajo en equipo'
             }
           },
-          services: {
-            // Traducciones de la sección de servicios
+          techStack: {
+
           },
           portfolio: {
             // Traducciones de la sección de portafolio

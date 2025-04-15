@@ -1,0 +1,157 @@
+.stackWrapper {
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+
+  @media (max-width: 1024px) {
+    width: 100%;
+  }
+
+  .stackSection {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media (max-width: 768px) {
+      width: 100%;
+    }
+  }
+
+  .stackSection.left {
+
+    .sectionTitle {
+      margin-bottom: 10px;
+      line-height: 1;
+      font-size: 58px;
+
+      @media (max-width: 1280px) {
+        font-size: 90px;
+      }
+
+      @media (max-width: 1024px) {
+        font-size: 48px;
+      }
+    }
+
+    .techStackList {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      .techStack {
+        width: 50%;
+        padding: 25px 30px;
+        border-radius: 20px;
+        background-color: #2f213f;
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        cursor: pointer;
+
+        @media (max-width: 1536px) {
+          width: 80%;
+        }
+
+        @media (max-width: 1280px) {
+          width: 100%;
+        }
+
+        @media (max-width: 1024px) {
+          width: 100%;
+        }
+
+
+        @media (max-width: 768px) {
+          align-items: center;
+          //justify-content: center;
+        }
+
+
+        .techStackIcon {
+          min-width: 48px;
+          width: 48px;
+          height: 48px;
+          border-radius: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        &:nth-child(1) .techStackIcon{
+          background-color: #dd4c62;
+        }
+
+        &:nth-child(2) .techStackIcon{
+          background-color: #025656;
+        }
+
+        &:nth-child(3) .techStackIcon{
+          background-color: #6c5c0c;
+        }
+
+        .techStackInfo {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+
+          .techStackTitle {
+            font-size: 16px;
+            font-weight: 500;
+            color: white;
+          }
+
+           h2 {
+             font-size: 24px;
+             font-weight: 600;
+             margin-bottom: 8px;
+
+             @media (max-width: 1024px) {
+               font-size: 20px;
+             }
+          }
+
+          h3 {
+            font-size: 20px;
+            font-weight: 400;
+
+            @media (max-width: 1024px) {
+              font-size: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .stackSection.right {
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+
+  .license {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.5);
+    z-index: 10;
+    a {
+      color: rgba(255, 255, 255, 0.7);
+      text-decoration: none;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.techStackIconImg {
+  width: 24px;
+  height: 24px;
+}

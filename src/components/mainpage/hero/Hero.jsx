@@ -10,7 +10,7 @@ import LanguageSwitch from "../../icons/LanguageSwitch.jsx";
 import profilePic from '../../../assets/heroImage.png';
 import heroImage from '../../../assets/heroImage.svg';
 import {motion} from 'motion/react';
-import {Canvas} from "@react-three/fiber";
+import SphereCanvas from './SphereCanvas.jsx';
 import Shape from "./Shape.jsx";
 
 const ctaButtonsVariants = {
@@ -114,7 +114,7 @@ const Hero = () => {
                     </motion.div>
                 </motion.div>
                 <motion.a
-                    href='#services'
+                    href='#techStack'
                     className={styles.scroll}
                     animate={{y:[0,5], opacity: [0,1,0]}}
                     transition={{duration: 4, ease: 'easeInOut', repeat: Infinity}}
@@ -149,12 +149,7 @@ const Hero = () => {
             {/* 프로필 사진 */}
             <div className={styles.background}>
                 <div className={styles.shapeWrapper}>
-                    {/* 3D Sphere : three.js. 사용법은 manuals 폴더 참고 */}
-                    <Canvas>
-                        <Suspense fallback={'loading...'}>
-                            <Shape />
-                        </Suspense>
-                    </Canvas>
+                    <SphereCanvas />
                 </div>
                 <div className={styles.heroImage}>
                     {/* 3D 캐릭터 */}

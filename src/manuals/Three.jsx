@@ -1,7 +1,9 @@
 /*
    [Three.jsx 사용법]
-   1. npm install three @react-three/fiber @react-three/drei
-     - drei는 자주 쓰는 기능을 미리 만들어 놓은 것
+   1. `npm install three @react-three/fiber @react-three/drei`
+    `npm install -g gltf-pipeline`
+    - drei는 자주 쓰는 기능을 미리 만들어 놓은 것
+    - pineline은 외부의 gltf 파일 가져올 때 최적화 하여 가져오는 것으로, 프로젝트가 아닌 컴퓨터 자체에 설치. 자세한 내용은 youtube의 lama dev porfolio 검색
    2. import { Canvas } from '@react-three/fiber'
       import { OrbitControls } from '@react-three/drei'
    3. <Canvas></Canvas>로 3D 공간을 생성

@@ -55,3 +55,58 @@
 - Smooth animations powered by Framer Motion
 - Interactive 3D elements using Three.js
 
+## 5. 트러블 슈팅 | Troubleshooting
+
+### 1) Three.js Canvas White Flash 이슈
+#### 문제 상황 | Problem
+- Three.js Canvas 초기 렌더링 시 흰색 깜빡임(white flash) 현상 발생
+- 일반적인 로딩 처리 방식인 Suspense를 적용해도 해결되지 않음
+```jsx
+<Suspense fallback={<Spinner />}>
+    <Canvas>
+        <Shape />
+    </Canvas>
+</Suspense>
+```
+- Initial white flash occurs during Three.js Canvas rendering
+- Standard loading approach using Suspense fails to resolve the issue
+
+#### 원인 | Root Cause
+- Three.js에서 '로딩 완료' 시점이 실제 도형이 그려진 후가 아닌, Canvas가 DOM에 마운트된 시점임
+- 따라서 Suspense로는 이 시점 차이를 제어할 수 없음
+- 3D 파일(GLB)과 달리 기본 도형은 Canvas 마운트 완료가 곧 로딩 완료로 인식되어 흰 화면이 노출됨
+- Three.js considers loading complete when Canvas mounts to DOM, not when shapes finish rendering
+- This timing mismatch cannot be handled by Suspense
+- For basic shapes (unlike GLB files), Canvas mounting is treated as load completion, triggering the white flash
+
+#### 해결 방법 | Solution
+- Canvas 마운트 자체를 지연시켜 실제 도형이 그려질 때까지 대기
+- Delayed Canvas mounting until shapes are ready to render
+
+```jsx
+const ThreeCanvas = () => {
+    const [isLoaded, setIsLoaded] = useState(false);
+
+    useEffect(() => {
+        // Canvas 마운트 지연
+        const timer = setTimeout(() => setIsLoaded(true), 100);
+        return () => clearTimeout(timer);
+    }, []);
+
+    // Canvas 마운트 자체를 지연
+    if (!isLoaded) return null;
+
+    return (
+        <Canvas>
+            <Shape />
+        </Canvas>
+    );
+};
+```
+
+#### 결과 | Outcome
+- 실제 도형이 그려질 준비가 된 후에 Canvas가 마운트되어 흰색 깜빡임 제거
+- 더 자연스러운 화면 전환
+- Successfully eliminated white flash by ensuring proper render timing
+- Achieved seamless visual transition
+

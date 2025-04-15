@@ -1,0 +1,123 @@
+[33m0d997a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m HEAD@{0}: commit: [feature/projects] 1
+[33ma65a0fe[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mfeature/tech-stack[m[33m)[m HEAD@{1}: checkout: moving from feature/tech-stack to main
+[33ma65a0fe[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mfeature/tech-stack[m[33m)[m HEAD@{2}: checkout: moving from main to feature/tech-stack
+[33ma65a0fe[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mfeature/tech-stack[m[33m)[m HEAD@{3}: rebase (finish): returning to refs/heads/main
+[33ma65a0fe[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mfeature/tech-stack[m[33m)[m HEAD@{4}: rebase (squash): [feature/tech-stack-section] complete draft version of tech stack section
+[33m1a3f8cc[m HEAD@{5}: rebase (start): checkout head~2
+[33maeffdee[m HEAD@{6}: commit: [feature/tech-stack-section] animation2
+[33m1a3f8cc[m HEAD@{7}: rebase (finish): returning to refs/heads/main
+[33m1a3f8cc[m HEAD@{8}: rebase (squash): [feature/tech-stack-section] animation2
+[33mac9a667[m HEAD@{9}: rebase (start): checkout head~2
+[33m70b99fe[m HEAD@{10}: commit: [feature/tech-stack-section] animation2
+[33mac9a667[m HEAD@{11}: reset: moving to HEAD
+[33mac9a667[m HEAD@{12}: reset: moving to HEAD
+[33mac9a667[m HEAD@{13}: reset: moving to HEAD
+[33mac9a667[m HEAD@{14}: reset: moving to HEAD
+[33mac9a667[m HEAD@{15}: reset: moving to HEAD
+[33mac9a667[m HEAD@{16}: rebase (finish): returning to refs/heads/main
+[33mac9a667[m HEAD@{17}: rebase (squash): [feature/tech-stack-section] animation
+[33mcc0db81[m HEAD@{18}: rebase (start): checkout head~2
+[33m669ff9c[m HEAD@{19}: commit: [feature/tech-stack-section] animation2
+[33mcc0db81[m HEAD@{20}: reset: moving to cc0db81
+[33mcc0db81[m HEAD@{21}: reset: moving to cc0db81
+[33mcc0db81[m HEAD@{22}: reset: moving to cc0db81
+[33mcc0db81[m HEAD@{23}: reset: moving to cc0db81
+[33mcc0db81[m HEAD@{24}: commit: [feature/tech-stack-section] animation
+[33mb1a8827[m HEAD@{25}: rebase (finish): returning to refs/heads/main
+[33mb1a8827[m HEAD@{26}: rebase (squash): [feature/hero-section] complete draft version of hero section
+[33m37530b7[m HEAD@{27}: rebase (start): checkout head~2
+[33m9954f61[m HEAD@{28}: commit: [feature/hero-section] complete draft version of hero section
+[33m37530b7[m HEAD@{29}: rebase (finish): returning to refs/heads/main
+[33m37530b7[m HEAD@{30}: rebase (squash): [feature/hero-section] complete draft version of hero section
+[33m0167298[m HEAD@{31}: rebase (start): checkout head~2
+[33m7441f5e[m HEAD@{32}: commit: [feature/hero-section] complete draft version of hero section
+[33m0167298[m HEAD@{33}: reset: moving to 0167298
+[33m0167298[m HEAD@{34}: reset: moving to 0167298
+[33m0167298[m HEAD@{35}: rebase (finish): returning to refs/heads/main
+[33m0167298[m HEAD@{36}: rebase (squash): [feature/hero-section] complete draft version of hero section
+[33m710134c[m HEAD@{37}: rebase (squash): # This is a combination of 2 commits.
+[33mba95cce[m HEAD@{38}: rebase (start): checkout head~3
+[33m4226fb6[m HEAD@{39}: commit: [feature/hero-section] complete draft version of hero section
+[33m8193a63[m HEAD@{40}: commit: [feature/hero-section] update readme
+[33mba95cce[m HEAD@{41}: rebase (finish): returning to refs/heads/main
+[33mba95cce[m HEAD@{42}: rebase (squash): [feature/hero-section] complete draft version of hero section
+[33m7def7f9[m HEAD@{43}: rebase (start): checkout head~2
+[33m8f398ef[m HEAD@{44}: commit: [feature/hero-section] complete draft version of hero section
+[33m7def7f9[m HEAD@{45}: rebase (finish): returning to refs/heads/main
+[33m7def7f9[m HEAD@{46}: rebase (squash): [feature/hero-section] complete draft version of hero section
+[33mb0a6f52[m HEAD@{47}: rebase (start): checkout head~2
+[33mf0c71ff[m HEAD@{48}: commit: [feature/hero-section] complete draft version of hero section
+[33mb0a6f52[m HEAD@{49}: rebase (finish): returning to refs/heads/main
+[33mb0a6f52[m HEAD@{50}: rebase (squash): [feature/hero-section] complete draft version of hero section
+[33mb700017[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mfeature/main[m[33m, [m[1;32mfeature/hero-section[m[33m)[m HEAD@{51}: rebase (start): checkout head~2
+[33m2d019c8[m HEAD@{52}: commit: [feature/hero-section] complete draft version of hero section
+[33mb700017[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mfeature/main[m[33m, [m[1;32mfeature/hero-section[m[33m)[m HEAD@{53}: checkout: moving from feature/hero-section to main
+[33mb700017[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mfeature/main[m[33m, [m[1;32mfeature/hero-section[m[33m)[m HEAD@{54}: checkout: moving from main to feature/hero-section
+[33md6063ee[m[33m ([m[1;31morigin/feature/main[m[33m)[m HEAD@{55}: checkout: moving from feature/hero-section to main
+[33mb700017[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mfeature/main[m[33m, [m[1;32mfeature/hero-section[m[33m)[m HEAD@{56}: checkout: moving from feature/main to feature/hero-section
+[33mb700017[m[33m ([m[1;31morigin/feature/hero-section[m[33m, [m[1;32mfeature/main[m[33m, [m[1;32mfeature/hero-section[m[33m)[m HEAD@{57}: commit: [feature/hero-section] complete draft version of hero section
+[33m315f077[m HEAD@{58}: rebase (finish): returning to refs/heads/feature/main
+[33m315f077[m HEAD@{59}: rebase (squash): [fix/build] fix css not working after deployment
+[33m1db1779[m HEAD@{60}: rebase (start): checkout head~3
+[33m21f4e97[m HEAD@{61}: commit: [fix/build] fix css not working after deployment
+[33m1db1779[m HEAD@{62}: commit: [fix/build] fix css not working after deployment
+[33m2deea69[m HEAD@{63}: reset: moving to 2deea69
+[33m2deea69[m HEAD@{64}: rebase (finish): returning to refs/heads/feature/main
+[33m2deea69[m HEAD@{65}: rebase (squash): [setup/build] deploy setup
+[33mc05aa1d[m HEAD@{66}: rebase (start): checkout head~4
+[33mb44f81a[m HEAD@{67}: commit: [setup/build] deploy setup
+[33mc05aa1d[m HEAD@{68}: rebase (finish): returning to refs/heads/feature/main
+[33mc05aa1d[m HEAD@{69}: rebase (squash): [setup/build] deploy setup
+[33m5641a91[m HEAD@{70}: rebase (squash): # This is a combination of 3 commits.
+[33m09d1c10[m HEAD@{71}: rebase (squash): # This is a combination of 2 commits.
+[33m6a3200a[m HEAD@{72}: rebase (start): checkout head~5
+[33mc407bca[m HEAD@{73}: commit: [setup/build] deploy setup
+[33mb555e0c[m HEAD@{74}: rebase (finish): returning to refs/heads/feature/main
+[33mb555e0c[m HEAD@{75}: rebase (squash): [setup/build] deploy setup
+[33m39bb206[m HEAD@{76}: rebase (squash): # This is a combination of 2 commits.
+[33m2d5af85[m HEAD@{77}: rebase (start): checkout head~3
+[33m697f7d6[m HEAD@{78}: commit: [setup/build] deploy setup
+[33m2f0ab60[m HEAD@{79}: commit: fix: update vite base config
+[33m2d5af85[m HEAD@{80}: commit: fix: update vite base config
+[33m274d097[m HEAD@{81}: commit: [setup/build] modify createBrowerRouter to createHashRouter
+[33m6a3200a[m HEAD@{82}: rebase (finish): returning to refs/heads/feature/main
+[33m6a3200a[m HEAD@{83}: rebase (squash): [setup/build] github pages deploy setup
+[33mcd54d2f[m HEAD@{84}: rebase (start): checkout head~3
+[33mfd7bb98[m HEAD@{85}: commit: [setup/build] github pages deploy setup
+[33mcd54d2f[m HEAD@{86}: commit: [setup/build] github pages deploy
+[33md6063ee[m[33m ([m[1;31morigin/feature/main[m[33m)[m HEAD@{87}: checkout: moving from main to feature/main
+[33md6063ee[m[33m ([m[1;31morigin/feature/main[m[33m)[m HEAD@{88}: checkout: moving from feature/main to main
+[33md6063ee[m[33m ([m[1;31morigin/feature/main[m[33m)[m HEAD@{89}: reset: moving to d6063ee
+[33m5b62e41[m HEAD@{90}: commit: [setup/build] Restore code state to d6063ee
+[33m53ea921[m HEAD@{91}: checkout: moving from d6063ee889da5f0ca70cc2f9b49c744721fef12c to feature/main
+[33md6063ee[m[33m ([m[1;31morigin/feature/main[m[33m)[m HEAD@{92}: checkout: moving from feature/main to d6063ee
+[33m53ea921[m HEAD@{93}: revert: Revert "[feature/main] typing effect in speech section"
+[33m9b25c8e[m HEAD@{94}: commit: [setup/build] revert
+[33m8cfac52[m HEAD@{95}: reset: moving to HEAD
+[33m8cfac52[m HEAD@{96}: commit: [setup/build] change .jsx to .js for deployment
+[33m26c1312[m HEAD@{97}: commit: [setup/build] add deploy configuration - delete unnecessary codes
+[33m8c132d1[m HEAD@{98}: commit: [setup/build] add deploy configuration with comments
+[33m79f6244[m HEAD@{99}: commit: [setup/build] add deploy configuration
+[33md6063ee[m[33m ([m[1;31morigin/feature/main[m[33m)[m HEAD@{100}: commit: [feature/main] typing effect in speech section
+[33m3243e53[m HEAD@{101}: checkout: moving from feature/hero-section to feature/main
+[33m3243e53[m HEAD@{102}: commit: [feature/main] support multi language
+[33m53157af[m[33m ([m[1;32mstyles/main[m[33m)[m HEAD@{103}: checkout: moving from styles/main to feature/hero-section
+[33m53157af[m[33m ([m[1;32mstyles/main[m[33m)[m HEAD@{104}: rebase (finish): returning to refs/heads/styles/main
+[33m53157af[m[33m ([m[1;32mstyles/main[m[33m)[m HEAD@{105}: rebase (squash): [styles/main] complete the left side of hero section
+[33m36c36d6[m HEAD@{106}: rebase (start): checkout head~3
+[33mff2d55b[m HEAD@{107}: commit: [styles/main] complete the left side of hero section
+[33m36c36d6[m HEAD@{108}: commit: [styles/main] 임시
+[33m0836d7d[m[33m ([m[1;31morigin/styles/main[m[33m)[m HEAD@{109}: commit: [styles/main] Implement scroll snap functionality
+[33mbf3b4f6[m[33m ([m[1;31morigin/feature/setup-environment[m[33m, [m[1;32mfeature/setup-environment[m[33m)[m HEAD@{110}: checkout: moving from feature/setup-environment to styles/main
+[33mbf3b4f6[m[33m ([m[1;31morigin/feature/setup-environment[m[33m, [m[1;32mfeature/setup-environment[m[33m)[m HEAD@{111}: commit: [feature/utility] Setup environment-based logger system
+[33m5fe25d0[m[33m ([m[1;31morigin/feature/global-styles[m[33m, [m[1;32mfeature/global-styles[m[33m)[m HEAD@{112}: checkout: moving from feature/global-styles to feature/setup-environment
+[33m5fe25d0[m[33m ([m[1;31morigin/feature/global-styles[m[33m, [m[1;32mfeature/global-styles[m[33m)[m HEAD@{113}: commit: [feature/global-styles] Add global styles and container layout
+[33m31259ff[m HEAD@{114}: checkout: moving from main to feature/global-styles
+[33m31259ff[m HEAD@{115}: pull origin main: Fast-forward
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{116}: checkout: moving from setup/project-structure to main
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{117}: reset: moving to 7a6ef09
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{118}: checkout: moving from main to setup/project-structure
+[33m11f4605[m HEAD@{119}: checkout: moving from setup/project-structure to main
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{120}: reset: moving to 7a6ef09
+[33m5ab1963[m HEAD@{121}: commit: [setup/project-structure] update ReadMe
+[33m7a6ef09[m[33m ([m[1;31morigin/setup/project-structure[m[33m)[m HEAD@{122}: commit (initial): [setup/project-structure] initialize project structure

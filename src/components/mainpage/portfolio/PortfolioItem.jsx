@@ -38,7 +38,11 @@ const PortfolioItem = ({ item }) => {
 
     // intersection observer용
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true });
+    const isInView = useInView(ref, {
+        once: true,  // 한 번만 실행
+        amount: 0.3, // 30% 정도 보일 때 트리거
+        margin: "-100px", // 뷰포트 경계 100px 전에 트리거
+    });
 
     // 번역
     const { t } = useTranslation();

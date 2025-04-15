@@ -7,30 +7,31 @@ import {Portfolio1,Portfolio2, Portfolio3} from "../components/mainpage/portfoli
 
 const MainPage = () => {
     return (
-        // global.scss 적용
-        <div className='container snapContainer'>
-            <section className={styles.section} id='home'>
-                <Hero/>
-            </section>
-            <section className={styles.section} id='techStack'>
-                <TechStack/>
-            </section>
-            {/* 재능 교환 플랫폼 */}
-            <section className={styles.section} id='portfolio1'>
-                <Portfolio1/>
-            </section>
-            {/* 포폴 사이트 */}
-            <section className={styles.section} id='portfolio2'>
-                <Portfolio2/>
-            </section>
-            {/* 집꾸미기 */}
-            <section className={styles.section} id='portfolio3'>
-                <Portfolio3/>
-            </section>
-            <section className={styles.section} id='contact'>
-                <Contact/>
-            </section>
-        </div>
+        <>
+            <div className='container snapContainer'>
+                <section className={styles.section} id='home'>
+                    <Hero/>
+                </section>
+                <section className={styles.section} id='techStack'>
+                    <TechStack/>
+                </section>
+                {/* 재능 교환 플랫폼 */}
+                <section className={styles.section} id='portfolio1'>
+                    <Portfolio1/>
+                </section>
+                {/* 포폴 사이트 */}
+                <section className={styles.section} id='portfolio2'>
+                    <Portfolio2/>
+                </section>
+                {/* 집꾸미기 */}
+                <section className={styles.section} id='portfolio3'>
+                    <Portfolio3/>
+                </section>
+                <section className={styles.section} id='contact'>
+                    <Contact/>
+                </section>
+            </div>
+        </>
     );
 };
 

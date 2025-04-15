@@ -6,7 +6,7 @@ import githubIcon from '../../../assets/github.png';
 import BlogIcon from "../../icons/BlogIcon.jsx";
 import Speech from "./Speech.jsx";
 import ContactButton from "../../icons/ContactButton.jsx";
-import LanguageSwitch from "../../icons/LanguageSwitch.jsx";
+import LanguageSwitch from '../../icons/LanguageSwitch';
 import profilePic from '../../../assets/heroImage.png';
 import heroImage from '../../../assets/heroImage.svg';
 import {motion} from 'motion/react';
@@ -34,11 +34,9 @@ const Hero = () => {
 
     return (
         <div className={styles.hero}>
-            {/* 언어 아이콘 */}
             <div className={styles.languageSwitchContainer}>
                 <LanguageSwitch />
             </div>
-
             {/* 왼쪽 */}
             <div className={`${styles.heroSection} ${styles.left}`}>
                 {/* 타이틀 */}

@@ -68,7 +68,7 @@ const Hero = () => {
                             {i18n.language === 'kor' && (
                                 <>
                                     <motion.a
-                                        href="https://drive.google.com/file/d/1lQbntW4BR0fdHoSk7m8sWjZkeQc0qAud/view?usp=sharing"
+                                        href="https://drive.google.com/file/d/1ScjyNPloH7Bts2ps4EvSJhRxn04kCNBW/view?usp=sharing"
                                         className={styles.resumeButton}
                                         target='_blank'
                                         rel='noopener noreferrer'

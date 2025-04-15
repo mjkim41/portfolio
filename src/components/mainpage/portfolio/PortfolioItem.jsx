@@ -54,7 +54,7 @@ const PortfolioItem = ({ item }) => {
     const imgVariants = {
         initial: {
             x: -500,
-            y: 500,
+            y: '50vh',
             opacity: 0,
         },
         animate: {
@@ -62,7 +62,7 @@ const PortfolioItem = ({ item }) => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.5,
+                duration: 0.7,
                 ease: 'easeInOut',
             }
         }
@@ -71,7 +71,7 @@ const PortfolioItem = ({ item }) => {
     const textVariants = {
         initial: {
             x: 500,
-            y: 500,
+            y: '50vh',
             opacity: 0,
         },
         animate: {
@@ -79,9 +79,9 @@ const PortfolioItem = ({ item }) => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.6,
+                duration: 0.7,
                 ease: 'easeInOut',
-                staggerChildren: 0.15, // (0.6초 / 4항목)
+                staggerChildren: 0.175, // 4항목
             }
         }
     };
@@ -95,7 +95,7 @@ const PortfolioItem = ({ item }) => {
             y: 0,
             opacity: 1,
             transition: {
-                duration: 0.5, // 0.3 → 0.5로 증가
+                duration: 0.5,
                 ease: 'easeOut',
             }
         }

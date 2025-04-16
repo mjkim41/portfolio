@@ -68,7 +68,7 @@ const Hero = () => {
                             {i18n.language === 'kor' && (
                                 <>
                                     <motion.a
-                                        href="https://drive.google.com/file/d/1ScjyNPloH7Bts2ps4EvSJhRxn04kCNBW/view?usp=sharing"
+                                        href="https://drive.google.com/file/d/1KwNUj1WP-MbHUAim18GY8h-WHp2qQbuk/view?usp=sharing"
                                         className={styles.resumeButton}
                                         target='_blank'
                                         rel='noopener noreferrer'
@@ -77,7 +77,7 @@ const Hero = () => {
                                         {t('pages.main.hero.resumeBtn')}
                                     </motion.a>
                                     <motion.a
-                                        href="https://drive.google.com/file/d/1oRAtUjcNFLRVsTvZYFC6CjVmV599VPtX/view?usp=sharing"
+                                        href="https://drive.google.com/file/d/1B_3mSPaIx7WOsizY08UJWUlIgNfNF95s/view?usp=sharing"
                                         className={styles.resumeButton}
                                         target='_blank'
                                         rel='noopener noreferrer'

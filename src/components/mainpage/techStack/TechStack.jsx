@@ -56,7 +56,7 @@ const techStackCategories = [
         id: 3,
         icon: <ToolsIcon />,
         title: 'Experienced Libraries and Tools',
-        description: 'Redux Toolkit / Three.js, Motion / Selenium, Yup / IntelliJ, VSCode / Gradle',
+        description: 'Redux Toolkit / Three.js(React Three Fiber), Motion / Selenium, Yup / IntelliJ, VSCode / Gradle',
     },
 ];
 

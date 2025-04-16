@@ -29,7 +29,7 @@ export const resources = {
               item1: {
                 title: '1:1 재능 교환 플랫폼',
                 desc: '• 사용자 간 Web RTC를 통해 재능을 교환하는 플랫폼입니다.\n• Redux를 통한 전역 상태 관리, 게시글 및 매칭 관리 프론트엔드, 공통 UI 컴포넌트 작성을 담당하였습니다.\n• 자세한 내용은 아래 링크 혹은 홈페이지 상단의 포트폴리오에서 확인하실 수 있습니다.',
-                techStack: 'JS, HTML5, CSS3, React, Spring, Spring Data JPA, Maria DB, EC2'
+                techStack: 'JS, HTML5, CSS3, React, Java, Spring, Spring Data JPA, Maria DB, EC2'
               },
               item2: {
                 title: '포트폴리오 웹사이트',
@@ -109,7 +109,7 @@ export const resources = {
               item1: {
                 title: '1:1 Skill Sharing Platform',
                 desc: '• A platform where users can exchange talents through Web RTC.\n• I was responsible for global state management using Redux, frontend development for post and matching management, and creating common UI components.\n• Check out the details on GitHub below (Korean only).',
-                techStack: 'JS, HTML5, CSS3, React, Spring, Spring Data JPA, Maria DB, EC2'
+                techStack: 'JS, HTML5, CSS3, React, Java, Spring, Spring Data JPA, Maria DB, EC2'
               },
               item2: {
                 title: 'Portfolio Website',
@@ -189,7 +189,7 @@ export const resources = {
               item1: {
                 title: 'Plataforma de Intercambio de Talentos', // 재능 교환 플랫폼
                 desc: '- Plataforma de intercambio de habilidades en tiempo real usando Web RTC.\n- Desarrollé la gestión de estados con Redux y componentes UI para el sistema de publicaciones y emparejamiento.\n• Haz clic en el enlace de abajo para más información (disponible solo en coreano).',
-                techStack: 'JS, HTML5, CSS3, React, Spring, Spring Data JPA, Maria DB, EC2'
+                techStack: 'JS, HTML5, CSS3, React, Java, Spring, Spring Data JPA, Maria DB, EC2'
               },
               item2: {
                 title: 'Sitio Web de Portafolio',

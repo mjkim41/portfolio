@@ -22,7 +22,7 @@
 
 #### Animation Libraries
 ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=flat&logo=framer&logoColor=white)
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat&logo=three.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js%20(R3F%20%2B%20Drei)-000000?style=flat&logo=three.js&logoColor=white)
 
 #### Internationalization
 ![i18next](https://img.shields.io/badge/i18next-26A69A?style=flat&logo=i18next&logoColor=white)

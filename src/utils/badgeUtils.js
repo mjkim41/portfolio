@@ -6,9 +6,10 @@ export const techStackBadgeMap = {
     'JavaScript': 'https://img.shields.io/badge/JavaScript-2f213f?style=flat&logo=javascript&logoColor=white',
     'React': 'https://img.shields.io/badge/React-2f213f?style=flat&logo=react&logoColor=white',
     'Spring': 'https://img.shields.io/badge/Spring-2f213f?style=flat&logo=spring&logoColor=white',
+    'Java': 'https://img.shields.io/badge/Java-2f213f?style=flat&logo=openjdk&logoColor=white',
     'MariaDB': 'https://img.shields.io/badge/MariaDB-2f213f?style=flat&logo=mariadb&logoColor=white',
-    'Three.js': 'https://img.shields.io/badge/Three.js-2f213f?style=flat&logo=three.js&logoColor=white',
-    'Framer Motion': 'https://img.shields.io/badge/Motion-2f213f?style=flat&logo=framer&logoColor=white',
+    'Three.js': 'https://img.shields.io/badge/Three.js%20(R3F%20%2B%20Drei)-2f213f?style=flat&logo=three.js&logoColor=white',
+    'Motion': 'https://img.shields.io/badge/Motion-2f213f?style=flat&logo=framer&logoColor=white',
     'EC2': 'https://img.shields.io/badge/EC2-2f213f?style=flat&logo=amazonec2&logoColor=white',
     'Spring Data JPA': 'https://img.shields.io/badge/Spring_Data_JPA-2f213f?style=flat&logo=spring&logoColor=white',
     'MyBatis': 'https://img.shields.io/badge/MyBatis-2f213f?style=flat'

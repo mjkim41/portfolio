@@ -16,6 +16,8 @@ export const resources = {
             name: '김미정입니다',
             profileTitle: '저에 대해 더 궁금하신가요?',
             profileDesc: '깃허브와 블로그를 확인해보세요',
+            resumeLink: 'https://drive.google.com/file/d/1XMgWEbZExC4tZMW0mZXz6yYosMWFU_cn/view?usp=sharing',
+            portfolioLink: 'https://drive.google.com/file/d/1B_3mSPaIx7WOsizY08UJWUlIgNfNF95s/view?usp=sharing',
             resumeBtn: '이력서',
             portfolioBtn: '포트폴리오',
             speech: {
@@ -81,6 +83,7 @@ export const resources = {
       }
     }
   },
+  // 영어 버전
   eng: {
     translation: {
       common: {
@@ -97,7 +100,10 @@ export const resources = {
             name: `I'm Mijung!`,
             profileTitle: 'Want to know more?',
             profileDesc: 'Check out my GitHub and blog',
-            resumeBtn: 'View Resume',
+            portfolioBtn: 'Portfolio',
+            portfolioLink: 'https://drive.google.com/file/d/1t9tD87ULqish6bs9kAREroWodWsDlPC-/view?usp=sharing',
+            resumeLink: 'https://drive.google.com/file/d/1o8hxkHIuFAO29jgnlF69fr8fzn1r_MaH/view?usp=sharing',
+            resumeBtn: 'CV',
             speech: {
               line1: 'I believe in well-documented collaboration'
             }
@@ -161,6 +167,7 @@ export const resources = {
       }
     }
   },
+  // 스페인어 버전
   esp: {
     translation: {
       common: {
@@ -177,7 +184,10 @@ export const resources = {
             name: 'Me llamo Mijung',
             profileTitle: '¿Quieres saber más?',
             profileDesc: 'Explora mi GitHub y blog',
-            resumeBtn: 'Ver CV',
+            portfolioBtn: 'Portafolio',
+            portfolioLink: 'https://drive.google.com/file/d/1t9tD87ULqish6bs9kAREroWodWsDlPC-/view?usp=sharing',
+            resumeLink: 'https://drive.google.com/file/d/1o8hxkHIuFAO29jgnlF69fr8fzn1r_MaH/view?usp=sharing',
+            resumeBtn: 'CV',
             speech: {
               line1: 'Priorizando la documentación en el trabajo en equipo'
             }

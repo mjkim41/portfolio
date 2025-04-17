@@ -34,6 +34,7 @@ const Hero = () => {
 
     return (
         <div className={styles.hero}>
+            {/* 언어 스위치 */}
             <div className={styles.languageSwitchContainer}>
                 <LanguageSwitch />
             </div>
@@ -65,28 +66,27 @@ const Hero = () => {
                     <motion.div variants={ctaButtonsVariants} className={styles.ctaButtons}>
                         {/* 이력서와 포트폴리오 버튼을 위한 div */}
                         <div className={styles.buttonGroup}>
-                            {i18n.language === 'kor' && (
-                                <>
-                                    <motion.a
-                                        href="https://drive.google.com/file/d/1RDJXBUcPUu-sEwv3AKtHS0cx14S35pR6/view?usp=sharing"
-                                        className={styles.resumeButton}
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                        variants={ctaButtonsVariants}
-                                    >
-                                        {t('pages.main.hero.resumeBtn')}
-                                    </motion.a>
-                                    <motion.a
-                                        href="https://drive.google.com/file/d/1B_3mSPaIx7WOsizY08UJWUlIgNfNF95s/view?usp=sharing"
-                                        className={styles.resumeButton}
-                                        target='_blank'
-                                        rel='noopener noreferrer'
-                                        variants={ctaButtonsVariants}
-                                    >
-                                        {t('pages.main.hero.portfolioBtn')}
-                                    </motion.a>
-                                </>
-                            )}
+                            {/* 이력서 */}
+                            <motion.a
+                                href={t('pages.main.hero.resumeLink')}
+                                className={styles.resumeButton}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                variants={ctaButtonsVariants}
+                            >
+                                {t('pages.main.hero.resumeBtn')}
+                            </motion.a>
+
+                            {/* 포트폴리오  */}
+                            <motion.a
+                                href={t('pages.main.hero.portfolioLink')}
+                                className={styles.resumeButton}
+                                target='_blank'
+                                rel='noopener noreferrer'
+                                variants={ctaButtonsVariants}
+                            >
+                                {t('pages.main.hero.portfolioBtn')}
+                            </motion.a>
                         </div>
                         {/* 아이콘들을 위한 div */}
                         <div className={styles.iconGroup}>

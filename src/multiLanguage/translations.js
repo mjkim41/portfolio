@@ -16,7 +16,7 @@ export const resources = {
             name: '김미정입니다',
             profileTitle: '저에 대해 더 궁금하신가요?',
             profileDesc: '깃허브와 블로그를 확인해보세요',
-            resumeLink: 'https://drive.google.com/file/d/1XMgWEbZExC4tZMW0mZXz6yYosMWFU_cn/view?usp=sharing',
+            resumeLink: 'https://drive.google.com/file/d/1o8vVo9fAmWhJMlhX1y7W1I9DJOfbLZtb/view?usp=sharing',
             portfolioLink: 'https://drive.google.com/file/d/1B_3mSPaIx7WOsizY08UJWUlIgNfNF95s/view?usp=sharing',
             resumeBtn: '이력서',
             portfolioBtn: '포트폴리오',
